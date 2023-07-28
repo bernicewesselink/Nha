@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tiel - De stad waar ik woon.</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+    header {
+      background-image: url('tielvanafdewaal.jpg');
+      background-size: cover;
+      text-align: center;
+      color: white;
+      padding: 20px;
+    }
+    .central-area {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .left-area {
+      flex: 1;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+    .right-area {
+      flex: 1;
+      background-color: #f0f0f0;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+    .fact-list {
+      list-style-type: none;
+      padding-left: 0;
+    }
+    .fact-list li {
+      margin-bottom: 10px;
+    }
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+    @media (min-width: 768px) {
+      .central-area {
+        flex-direction: row;
+      }
+      .left-area {
+        flex: 1;
+        padding: 20px;
+        box-sizing: border-box;
+        max-width: 50%;
+      }
+      .right-area {
+        flex: 1;
+        background-color: #f0f0f0;
+        padding: 20px;
+        box-sizing: border-box;
+        max-width: 50%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Tiel</h1>
+  </header>
+
+  <div class="central-area">
+    <div class="left-area">
+      <h2>Vijf leuke feitjes over Tiel!</h2>
+      <ul class="fact-list">
+        <li>Tiel is meer dan 1000 jaar oud.</li>
+        <li>Het is een oude hanzestad.</li>
+        <li>Elk jaar hebben we het Appelpop festival in september.</li>
+        <li>Er is dan ook een fruitcorso.</li>
+        <li>De Betuwe staat bekend om haar fruitindustrie met als symbool Flipje.</li>
+      </ul>
+    </div>
+    <div class="right-area">
+      <div>
+        <h2>Sectie 1</h2>
+        <p>Hier een foto van de mooie Betuwe.</p>
+        <img src="stock foto fruitindustrie.jpg" alt="Image 1">
+      </div>
+      <div>
+        <h2>Sectie 2</h2>
+        <p>Tiel en de Betuwe staan bekend om de fruitindustrie en (met name vroeger) de jam.</p>
+        <img src="stock foto tiel centrum.jpg" alt="Image 2">
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2023 Bernice Wesselink. Alle rechten voorbehouden.</p>
+  </footer>
+</body>
+
+</html>
