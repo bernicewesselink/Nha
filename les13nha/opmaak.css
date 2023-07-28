@@ -1,0 +1,27 @@
+body {
+    background-color: pink;
+    margin: 0;
+  }
+  
+  header, main, footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+  }
+  
+  header > *, main > *, footer > * {
+    padding: 5px;
+  }
+  
+  header {
+    background-color: #f1f1f1;
+  }
+  
+  main {
+    background-color: #fff;
+  }
+  
+  footer {
+    background-color: #f1f1f1;
+  }
+  
